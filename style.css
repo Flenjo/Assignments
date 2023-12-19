@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+   }
+
+   a {
+    color: #2EC4B6;
+    font-weight:lighter;
+    font-family:Arial, Helvetica, sans-serif;
+   }
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+html, body {
+    background-color: #f7fdfc;
+}
+
+body {
+    padding: 50px 100px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    top: 205;
+    left: 140;
+    margin-bottom: 40px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper>div {
+    width: 50%;
+}
+
+.margin-container {
+    margin: 100px;
+}
+
+.input-group {
+    display: flex;
+    gap: 30px;
+}
+
+.input-group>div {
+    width: 50%;
+    /* margin-right: 10px; */
+}
+
+input,
+select {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #cecece;
+    outline: 0;
+}
+
+select {
+    background-color: #fff;
+    /* border-bottom: 1px solid gray; */
+}
+
+.form-wrapper {
+    background-color: #fff;
+    padding: 40px;
+    font-weight: 60;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.1;
+    font-family: sans-serif;
+    box-shadow: 0px 4px 50px 0px #0408131A;
+}
+
+.form-wrapper > div {
+    margin-bottom: 30px;
+}
+
+.register-button {
+    background-color: #2EC4B6;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        display: block;
+    }
+    .input-group {
+        display: block;
+    }
+    .input-group > div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .wrapper > div {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
